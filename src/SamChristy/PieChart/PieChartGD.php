@@ -23,7 +23,7 @@ class PieChartGD extends PieChart {
         $this->canvas = imageCreateTrueColor($this->width, $this->height);
 
         // Set anti-aliasing for the pie chart.
-        imageAntiAlias($this->canvas, true);
+        //imageAntiAlias($this->canvas, true);
 
         imageFilledRectangle($this->canvas, 0, 0, $this->width, $this->height,
                 $this->_convertColor($this->backgroundColor));
